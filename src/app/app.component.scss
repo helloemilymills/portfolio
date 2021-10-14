@@ -67,7 +67,9 @@
 form {
     margin: 0 auto;
     margin-top: 80px;
-    width: 450px;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
 }
 
 .check-inbox {
@@ -76,7 +78,6 @@ form {
     font-size: 30px;
     margin: 0;
     margin-top: -5px;
-    
 }
 
 input {
@@ -88,17 +89,16 @@ input {
     border: none;
     height: 25px;
     width: 200px;
-    background: #362D2D;
+    background: #202020;
     color: white;
 }
 
 textarea {
-    width: 450px;
     height: 150px;
     border-radius: 3px;
     border: none;
     margin-top: 20px;
-    background: #362D2D;
+    background: #202020;
     color: white;
 }
 
